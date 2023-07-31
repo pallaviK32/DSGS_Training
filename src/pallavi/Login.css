@@ -1,0 +1,23 @@
+
+body{
+	text-align:centre;
+	align-content: center;
+	background-color:#52ebc4;
+	width: 100%;
+    height: 100%;
+    
+}
+h1 {
+	
+	color: black;
+}
+label {
+	 color: #f72314; 
+	 font-size: 20px;
+}
+input {
+	  color: black; font-size: 20px
+}
+button {
+	  padding: 15px; background-color: #fca265; font-size: 20px
+}
