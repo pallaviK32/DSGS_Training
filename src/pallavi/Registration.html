@@ -11,8 +11,10 @@
 <script src="Validation.js">
 		</script>
 <h1>Registration Page</h1>
+<hr>
 
-<form>
+<form action="Register2.html">
+
     <label>Enter UserName</label><input type=text onkeyUp="clearNameErrMsg()" onchange="uNameLength()" id="uname"><span id="unameErr"></span><br><br>
     
     <label>Enter Password</label><input type=password id="upass" onkeyUp=" clearPassErrMsg()"onchange="upassValidation()"><span id="upassErr"></span><br><br>
@@ -21,7 +23,7 @@
     
     <label>Enter Date of birth</label><input type=date id="dob" onchange="dobValidation()"><span id="dobErr"></span><br><br>
     
-    <button onclick="return validate(); Register2.html" type="submit" >Register</button>
+    <button onclick="return validate(); Register2.html" type="submit" >Register</button><br>
 </form>
 
 </body>
