@@ -109,7 +109,7 @@ function dobValidation()
 {
 	var dob1=document.getElementById('dob');
 	
-	if (isNaN(dobDate) || dobDate > today)
+	if (isNaN(dob1) || dob1 > today)
 	{
         document.getElementById('dobErr').innerText = 'Invalid date of birth.';
     } 
