@@ -1,0 +1,48 @@
+create table Register
+		(
+									      AccountNumber varchar(50),
+                                                                              LoginPassword varchar(50),
+                                                                              TransactionPassword varchar(50),
+									      UserId varchar(20)
+                                                                               
+		)
+
+create table Transaction
+		(
+									      TransactionID varchar(150),
+                                                                              ToAccountNo varchar(80),
+                                                                              Amount int,
+                                                                              Date DATETIME,
+									      Remark varchar(100)
+                                                                               
+		)
+
+create table Address
+               (		
+                 						              Address varchar(150),
+                                                                              State varchar(80),
+                                                                              city varchar(80),
+                                                                              pincode int
+		)
+
+
+create table UserDetail
+		(
+			
+									      firstName varchar(20),
+                                                                              LastName varchar(20),
+									      FatherName varchar(20),
+                                                                              mobileNumber varchar(50),
+                                                                              emailId varchar(80),
+                                                                              AdharCard varchar(12),
+                                                                              BirthDate date,
+									      Balance int,
+                                                                              ReferenceID varchar(20)
+		)
+Create table Payee
+(
+
+		PayeeName varchar(50),
+		PayeeAccNo varchar(50),
+		NickName varchar(50)
+)
